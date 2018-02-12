@@ -1,3 +1,5 @@
+READ_ME file in Portuguese
+
 .1 --> No trabalho de projecto pycracker, foram implementados os módulos argparse para a construção de sintaxe na linha de comandos. O módulo crypt para fazer a conversão da hash e do salt para uma palavra-passe. O módulo os para verificar se o utilizador pertence aos sudoers ou não, se por ventura quiser usar o ficheiro por default do argumento '-p ' que tem o /etc/shadow por default, e por último o módulo platform para identificar a distro que o user está a utilizar assim como a sua versão.
 
 """[1]
