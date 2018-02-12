@@ -4,6 +4,7 @@ This a academic construction of a program to crack passwords in Linux environmen
 It was made by me, Pedro Pereira and my dear colleage Pedro Lourenço.
 
 We had chose the module argparse and not docopt.
+The program could be best but nice.
 
 The output phrases are in Portuguese but the core is in English. Later I will do this update to be totally in English.
 
