@@ -10,7 +10,7 @@ def main():
 	"""
 
 	ld,v,v1=platform.linux_distribution()
-	parser = argparse.ArgumentParser(description="Programa %(prog)s feito por Pedro Pereira & Pedro Lourenço (05/05/2017)\n"\
+	parser = argparse.ArgumentParser(description="Programa %(prog)s feito por Pedro Pereira & Pedro Lourenço CET06 (05/05/2017)\n"\
 		 ,usage='\n[-h] -d <dicionario> [-p <passwords>] [-u <user>] [-v --verbose] [--version]')
 	requeridos = parser.add_argument_group('required arguments')
 	requeridos.add_argument('-d', dest='dicionario', required=True, help='especifica um ficheiro dicionario.')
