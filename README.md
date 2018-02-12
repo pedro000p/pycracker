@@ -43,17 +43,17 @@ if (options.password == '/etc/shadow') and  not (options.user):
                 exit(1)
 
         else:
-                contagem=0
-                with open(options.password) as file:
-                        for line in file:
-                                if (":") in line:
-                                        user = line.split(':')[0]
-                                        cryptPass = line.split(':')[1].strip(' ')
-                                        distro=platform.linux_distribution()	 ## AVALIAÇÃO DE DISTRO LINUX
-                                        if distro[0] == 'Ubuntu':                ## SE A DISTRO FOR UBUNTU
-                                                salt=cryptPass.split('.')[0]
-                                        if distro[0] == 'CentOS Linux':			 ## SE A DISTRO FOR CENTOS
-                                                salt=cryptPass.split('/')[0]
+					contagem=0
+					with open(options.password) as file:
+							for line in file:
+									if (":") in line:
+											user = line.split(':')[0]
+											cryptPass = line.split(':')[1].strip(' ')
+											distro=platform.linux_distribution()	 ## AVALIAÇÃO DE DISTRO LINUX
+											if distro[0] == 'Ubuntu':                ## SE A DISTRO FOR UBUNTU
+													salt=cryptPass.split('.')[0]
+											if distro[0] == 'CentOS Linux':			 ## SE A DISTRO FOR CENTOS
+													salt=cryptPass.split('/')[0]
 
 
 
