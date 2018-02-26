@@ -33,7 +33,7 @@ required arguments:
   -d DICTIONARY         specifies a dictionary file.
   
   
-  EX_1: [user@server pycracker]# ./pycracker.py -d dictionaty.txt
-  EX_2: [user@server pycracker]# ./pycracker.py -d dictionaty.txt -u john peter
+  (to all users)      EX_1: [user@server pycracker]# ./pycracker.py -d dictionary.txt
+  (to specific users) EX_2: [user@server pycracker]# ./pycracker.py -d dictionary.txt -u john peter
   ```
   -----------------------------------------------------------------------------------------------------------------------------------
