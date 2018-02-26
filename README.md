@@ -37,4 +37,3 @@ required arguments:
   EX_2: [user@server pycracker]# ./pycracker.py -d dictionaty.txt -u john peter
   ```
   -----------------------------------------------------------------------------------------------------------------------------------
-I hope it's useful!
