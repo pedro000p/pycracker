@@ -17,7 +17,7 @@ You have to have Python 3 installed.
 usage: 
 [-h] -d <dictionary> [-p <path>] [-u <user>] [-v --verbose] [--version]
 
-pycrackerV2.py, Authors: Pedro Pereira & Pedro Lourenço (CET06_2017) on
+pycracker.py, Authors: Pedro Pereira & Pedro Lourenço (CET06_2017) on
 05/05/2017 <> Version 1.2 improved by Pedro Pereira (Fev-2018)
 
 optional arguments:
