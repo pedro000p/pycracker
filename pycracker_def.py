@@ -20,7 +20,7 @@ def arg_Parser(this):
 	parser.add_argument('-p', dest='path', default='/etc/shadow', help='Specifies the path for the password file, default=/etc/shadow.')
 	parser.add_argument('-u', '--user=',nargs='+', dest='user', help='specifies the user to search.')
 	parser.add_argument('-v', '--verbose', dest='verbose', action="store_true", help='does the verbose of every step.')
-	parser.add_argument('--version', action='version', version='%(prog)s 1.21', help='Shows version and ends.')
+	parser.add_argument('--version', action='version', version='%(prog)s 1.2', help='Shows version and ends.')
 	this.options = parser.parse_args()
 	this.usg = parser.usage
 
