@@ -4,14 +4,16 @@ A simple program to crack passwords on Linux (/etc/passwd)
 Download the files and use pycracker.py and pycracker_def.py in the same directory.
 You have to have Python 3 installed.
 
-[Ubuntu]
+**Ubuntu**
 If it is used in Ubuntu you dont have to change anything.
 
-[CentOS]
+**CentOS**
 If it is used in CentOS you have to change the shebang to --> /usr/bin/python3.6
 
 -----------------------------------------------------------------------------------------------------------------------------------
-Syntax:
+**Syntax:**
+
+```
 
 [user@server pycracker]# ./pycracker.py --help
 usage: 
@@ -31,6 +33,6 @@ optional arguments:
 
 required arguments:
   -d DICTIONARY         specifies a dictionary file.
-  
+  ```
   -----------------------------------------------------------------------------------------------------------------------------------
 I hope it's useful!
