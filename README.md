@@ -12,7 +12,7 @@ If it is used in CentOS you have to change the shebang to _/usr/bin/python3.6_ o
 
 #### **Suggestion**: 
 The dictionary file "dictionary.txt" have 4.64MB.
-If you are using for simple testing purposes, you can write you own dictionary file with 10 or 20 words more or less, with the same format, just to not spend cpu resources.
+If you are using for simple testing purposes, you can write you own dictionary file with 10 or 20 words more or less, with the same format, just to not spend cpu/time resources.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ## **Syntax:**
