@@ -8,7 +8,7 @@ Assuming that python 3 is installed.
 If it is used in Ubuntu you dont have to change anything.
 
 ## **CentOS**: 
-If it is used in CentOS you have to change the shebang to _/usr/bin/python3.6_
+If it is used in CentOS you have to change the shebang to _/usr/bin/python3.6_ or version of Python 3.
 
 #### **Suggestion**: 
 The dictionary file "dictionary.txt" have 4.64MB.
