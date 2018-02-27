@@ -5,7 +5,7 @@ Download the files and use pycracker.py and pycracker_def.py in the same directo
 Assuming that some version of Python 3 is installed.
 
 ## **Attention**: 
-If you are not using python 3.6 and are using other version of Pyhton 3, change the shebang " _/usr/bin/python3.6_" for that version.
+If you are not using python 3.6 and are using other version of Pyhton 3, change the shebang "_/usr/bin/python3.6_" for that version.
 
 #### **Suggestion**: 
 The dictionary file "dictionary.txt" have 4.64MB.
