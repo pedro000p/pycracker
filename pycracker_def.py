@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-
-
 import crypt, argparse, os, platform
 
 def process(argP):
@@ -190,6 +188,7 @@ def isSudo(usg):
 		return True
 		
 def vef_File(chkFile):
+	"""Check if the path is valid and the file exists."""
 	resul = os.path.isfile(chkFile)
 	if resul == False:
 		print("File/Path not found Error!")
