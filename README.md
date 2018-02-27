@@ -2,13 +2,10 @@
 A simple program to crack passwords on Linux (/etc/passwd)
 
 Download the files and use pycracker.py and pycracker_def.py in the same directory.
-Assuming that python 3 is installed.
+Assuming that some version of Python 3 is installed.
 
-## **Ubuntu**: 
-If it is used in Ubuntu you dont have to change anything.
-
-## **CentOS**: 
-If it is used in CentOS you have to change the shebang to _/usr/bin/python3.6_ or other version of Python 3.
+## **Attention**: 
+If you are not using python 3.6 and are using other version of Pyhton 3, change the shebang " _/usr/bin/python3.6_" for that version.
 
 #### **Suggestion**: 
 The dictionary file "dictionary.txt" have 4.64MB.
