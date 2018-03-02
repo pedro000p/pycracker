@@ -10,7 +10,7 @@ def process(argP):
 @process
 def arg_Parser(this):
 	# Arg Parser 
-	parser = argparse.ArgumentParser(description="%(prog)s, Authors: Pedro Pereira & Pedro Lourenço (CET06_2017) on 05/05/2017"\
+	parser = argparse.ArgumentParser(description="%(prog)s, Made by: Pedro Pereira & Pedro Lourenço (CET06_2017) on 05/05/2017"\
 	" <> Version 1.2 improved by Pedro Pereira\n"
 	,usage = '\n[-h] -d <dictionary> [-p <path>] [-u <user>] [-v --verbose] [--version]')
 	requeridos = parser.add_argument_group('required arguments')
