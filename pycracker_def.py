@@ -154,7 +154,7 @@ def w_User(options, usg):
 
 
 def chkPassAlg(cryptPass):
-	"""Check the encription algorythm """
+	"""Check the encryption algorythm """
 
 	sha = cryptPass[1]
 	if sha == '6':
