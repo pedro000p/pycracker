@@ -20,7 +20,7 @@ If you are using for simple testing purposes, you can write you own dictionary f
 usage: 
 [-h] -d <dictionary> [-p <path>] [-u <user>] [-v --verbose] [--version]
 
-pycracker.py, Authors: Pedro Pereira & Pedro Lourenço (CET06_2017) on
+pycracker.py, Made by: Pedro Pereira & Pedro Lourenço (CET06_2017) on
 05/05/2017 <> Version 1.2 improved by Pedro Pereira (Fev-2018)
 
 optional arguments:
