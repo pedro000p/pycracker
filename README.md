@@ -4,10 +4,7 @@ A simple program to crack passwords on Linux distros: Ubuntu and CentOS _/etc/sh
 Download the files and use pycracker.py and pycracker_def.py in the same directory.
 Assuming that some version of Python 3 is installed.
 
-## **Attention**: 
-If you are not using python 3.6 and are using other version of Pyhton 3, change the shebang _/usr/bin/python3.6_ for that version.
-
-#### **Suggestion**: 
+### **Suggestion**: 
 The dictionary file "dictionary.txt" have 4.64MB.
 If you are using for simple testing purposes, you can write you own dictionary file with 10 or 20 words more or less, with the same format, just to not spend cpu/time resources.
 
