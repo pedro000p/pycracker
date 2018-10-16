@@ -115,7 +115,7 @@ def w_User(options, usg):
 							if cryptPass[0] == '!':
 								if options.verbose:
 									if 'root' in user:
-										print("...ignored. For security reasons. \n")
+										print("...ignored. For security reasons. lol \n")
 									else:
 										print("...ignored. Account locked. Login disable ('!' or '*').\n")
 								continue
