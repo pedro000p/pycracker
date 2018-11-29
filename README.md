@@ -1,5 +1,5 @@
 # pycracker
-A simple program to crack passwords on Linux distros: Ubuntu and CentOS _/etc/shadow_
+A simple program to crack passwords on Linux distros: Ubuntu/Fedora/CentOS _/etc/shadow_
 
 Download the files and use pycracker.py and pycracker_def.py in the same directory.
 Assuming that some version of Python 3 is installed.
