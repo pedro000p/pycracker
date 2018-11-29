@@ -171,6 +171,9 @@ def chkDistro(cryptPass):
 	"""EVALUATION OF LINUX DISTRO"""
 
 	distro = platform.linux_distribution()	 
+	if distro[0] == 'Fedora':              
+		salt = cryptPass.split('.')[0]
+		return salt
 	if distro[0] == 'Ubuntu':              
 		salt = cryptPass.split('.')[0]
 		return salt
