@@ -181,7 +181,7 @@ def chkDistro(cryptPass):
 def isSudo(usg):
 	"""Check if user is with root privileges, otherwise cant proceed."""
 	if not 'SUDO_UID' in os.environ.keys():
-		print("You need privileges for this operation!\n If you have them, log in with privileges and then run the program again.\n")
+		print("You need privileges for this operation!\n Run with SUDO.\n")
 		print("usage:", usg,"\n")
 		exit(1)
 	else:
